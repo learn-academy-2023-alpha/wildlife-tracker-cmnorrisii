@@ -32,9 +32,10 @@ Branch: animal-sightings-reports
 
 Acceptance Criteria
 
-Can see one animal with all its associated sightings
+Can see one animal with all its associated sightings ✅
 Hint: Checkout this example on how to include associated records
-Can see all the all sightings during a given time period
+
+Can see all the all sightings during a given time period ✅
 Hint: Your controller can use a range to look like this:
 class SightingsController < ApplicationController
 def index
@@ -45,6 +46,7 @@ end
 Hint: Be sure to add the start_date and end_date to what is permitted in your strong parameters method
 Hint: Utilize the params section in Postman to ease the developer experience
 Hint: Routes with params
+
 Stretch Challenges
 Story 4: In order to see the wildlife sightings contain valid data, as a user of the API, I need to include proper specs.
 

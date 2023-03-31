@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
+  get '/sightings/dates' => 'sightings#index_dates'
   resources :sightings
   resources :animals
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  
 end
